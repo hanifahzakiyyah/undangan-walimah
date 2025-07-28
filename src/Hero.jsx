@@ -49,7 +49,7 @@ const Hero = ({ enableScroll, heroRef }) => {
     >
       {/* Background Blur */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center filter blur-md overflow-hidden z-[-1]"
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center filter blur-sm overflow-hidden z-[-1]"
         style={{ backgroundImage: "url('/tangan.jpg')" }}
         data-aos="fade-in"
       ></div>
@@ -58,18 +58,20 @@ const Hero = ({ enableScroll, heroRef }) => {
         <div className="flex justify-center">
           <img src="/pngwing.com.png" alt="" className="w-80 mx-auto" data-aos="zoom-in" />
         </div>
-        <h4 className="text-md text-orange-700 capitalize" data-aos="fade-up">
-          Kepada Yth {panggilan ? toTitleCase(panggilan) : "Bapak/Ibu/Saudara/i"} 
-        </h4>
-        
-        {/* Nama tamu dari URL */}
-        <h4 className="text-2xl diundang capitalize" data-aos="fade-up">
-          {namaTamu ? toTitleCase(namaTamu) : "Tamu Undangan"}
-        </h4>
+        <div className="bg-orange-100/50 rounded-3xl py-5 backdrop-blur-[2px] border border-orange-800">
+          <h4 className="text-md text-orange-900 capitalize " data-aos="fade-up">
+            Kepada Yth {panggilan ? toTitleCase(panggilan) : "Bapak/Ibu/Saudara/i"} 
+          </h4>
+          
+          {/* Nama tamu dari URL */}
+          <h4 className="text-2xl diundang capitalize" data-aos="fade-up">
+            {namaTamu ? toTitleCase(namaTamu) : "Tamu Undangan"}
+          </h4>
 
-        <h4 className="text-xl" data-aos="fade-up">
-          Di Tempat
-        </h4>
+          <h4 className="text-xl" data-aos="fade-up">
+            Di Tempat
+          </h4>
+        </div>
 
         <button
           onClick={enableScroll}

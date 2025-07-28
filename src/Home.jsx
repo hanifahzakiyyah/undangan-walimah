@@ -49,7 +49,7 @@ const Home = () => {
         <h3 data-aos="fade-up" data-aos-duration="2000" className="text-2xl mt-4">
           Sugiyono Abu Ramadhan <br />
           & <br />
-          Chs Kunarti Ummu Hanifah
+          Chasana Kunarti Ummu Hanifah
         </h3>
         <h4 data-aos="fade-up" data-aos-duration="2000" className="text-xl mt-10">
           -- Agustus 2025
