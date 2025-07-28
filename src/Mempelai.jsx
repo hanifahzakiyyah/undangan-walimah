@@ -28,7 +28,7 @@ const Mempelai = () => {
           <div className="flex flex-row items-center md:justify-center w-full max-w-3xl ">
             <div className="md:w-1/3 flex justify-center">
                 <div className="md:w-2/3 text-right mr-5" data-aos="flip-up" data-aos-duration="2000">
-                    <h3 className="text-4xl font-sacramento text-orange-800">Chas Kunarti (Ummu Hanifah)</h3>
+                    <h3 className="text-2xl font-sacramento text-orange-800">Chas Kunarti (Ummu Hanifah)</h3>
                     <p>Putri dari Bapak Dulmanab Atmodegsono (Alm) dan Ibu Satinem (Alm)</p>
                 </div>
             </div>
@@ -51,7 +51,7 @@ const Mempelai = () => {
             />
             <div className="md:w-1/3 flex justify-center">
                 <div className="md:w-2/3 text-left" data-aos="flip-right" data-aos-duration="2000">
-                    <h3 className="text-4xl font-sacramento text-orange-800">Sugiyono Abu Ramadhan</h3>
+                    <h3 className="text-2xl font-sacramento text-orange-800">Sugiyono Abu Ramadhan</h3>
                     <p>Putra dari Bapak --- (Alm) dan Ibu --- (Alm)</p>
                 </div>
             </div>
