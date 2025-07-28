@@ -19,7 +19,7 @@ const Mempelai = () => {
           </div>
           <h3 data-aos="fade-up" data-aos-duration="2000" className="leading-relaxed">
             Maha Suci Allah yang telah menciptakan makhluk-Nya
-            berpasang-pasangan. <br /> Ya Allah, perkenankanlah kami menikahkan putra putri kami:
+            berpasang-pasangan. <br /> Ya Allah, berkahilah pernikahan kami:
           </h3>
         </div>
 
