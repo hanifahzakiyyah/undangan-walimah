@@ -24,7 +24,7 @@ const TanggalSection = () => {
           </h2> */}
           <p className="text-lg mb-5 mt-10" data-aos="fade-up-right" data-aos-duration="2000">
             Assalamu'alaikum Warahmatullah Wabarakatuh <br />
-            Dengan mengharap Rahmat dan Ridho Allah, Kami mengundang Bapak/Ibu, Saudara/i untuk berkenan hadir pada resepsi pernikahan putra-putri kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
+            Dengan mengharap Rahmat dan Ridho Allah, Kami mengundang Bapak/Ibu, Saudara/i untuk berkenan hadir pada resepsi pernikahan kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
           </p>
 
           <div 
@@ -33,7 +33,7 @@ const TanggalSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">--, -- April 2025</p>
+                <p className="mt-2 text-lg">--, -- Agustus 2025</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
