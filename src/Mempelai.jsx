@@ -7,7 +7,7 @@ const Mempelai = () => {
     <section id="mempelai" className="pt-[8rem] pb-[8rem] px-5 bg-yellow-100/50 text-orange-900">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
-          <h2 data-aos="fade-down" data-aos-duration="2000" className="font-zain">بسم الله الرحمن الرحيم</h2>
+          <h2 data-aos="fade-down" data-aos-duration="2000" className="font-zain pt-20">بسم الله الرحمن الرحيم</h2>
 
           <div className="mt-5 mb-5 text-center max-w-2xl mx-auto">
             <p data-aos="zoom-in-up" data-aos-duration="2000" className="leading-relaxed">
@@ -58,7 +58,7 @@ const Mempelai = () => {
         </div>
 
         <div 
-            className=" shadow-lg rounded-lg p-6 text-orange-800" 
+            className=" shadow-lg rounded-lg p-6 text-orange-800 mb-20" 
             data-aos="fade-up-right" data-aos-duration="2000">
             <div className="text-xl font-semibold border-b pb-2 mb-4 text-center">Akad Nikah</div>
             <div className="grid grid-cols-2 gap-4">

@@ -22,7 +22,7 @@ const TanggalSection = () => {
           {/* <h2 className="text-3xl font-bold mb-4" data-aos="flip-down-right" data-aos-duration="2000">
             Informasi Acara
           </h2> */}
-          <p className="text-lg mb-5" data-aos="fade-up-right" data-aos-duration="2000">
+          <p className="text-lg mb-5 mt-10" data-aos="fade-up-right" data-aos-duration="2000">
             Assalamu'alaikum Warahmatullah Wabarakatuh <br />
             Dengan mengharap Rahmat dan Ridho Allah, Kami mengundang Bapak/Ibu, Saudara/i untuk berkenan hadir pada resepsi pernikahan putra-putri kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
           </p>

@@ -89,7 +89,7 @@ export default function Experience() {
 
             <Mempelai />
             <div className="relative w-full h-[10px] contain">
-                <img src="4.png" className="absolute -top-[80px]" data-aos="flip-down"/>
+                <img src="4.png" className="absolute -top-[150px]" data-aos="flip-down"/>
             </div>
             <TanggalSection />
             <AdabSection />
