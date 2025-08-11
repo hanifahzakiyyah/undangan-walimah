@@ -41,6 +41,7 @@ export default function Experience() {
 
         // Mulai audio
         const audio = audioRef.current;
+        audio.loop = true;
         audio.play().then(() => setIsPlaying(true)).catch(err => console.log("Autoplay gagal:", err));
     };
 

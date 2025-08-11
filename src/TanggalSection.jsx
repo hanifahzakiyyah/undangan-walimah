@@ -28,12 +28,12 @@ const TanggalSection = () => {
           </p>
 
           <div 
-            className="shadow-lg rounded-lg p-6 text-orange-800" 
+            className="shadow-lg rounded-tr-lg rounded-tl-lg p-6 text-orange-800" 
             data-aos="fade-up-right" data-aos-duration="2000">
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">--, -- Agustus 2025</p>
+                <p className="mt-2 text-lg">Ahad, 24 Agustus 2025</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
@@ -60,6 +60,10 @@ const TanggalSection = () => {
               </p>
               
             </div>
+          </div>
+
+          <div className= "shadow-lg text-white bg-yellow-700 rounded-br-lg rounded-bl-lg px-6 py-3 text-lg font-semibold" data-aos="fade-right" data-aos-duration="2000">
+              Dengan tanpa mengurangi rasa hormat, tidak menerima sumbangan / bingkisan dalam bentuk apapun 
           </div>
         </div>
 
