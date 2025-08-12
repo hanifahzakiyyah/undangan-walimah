@@ -60,7 +60,7 @@ const TanggalSection = () => {
             </div>
           </div>
 
-          <div className= "capitalize shadow-lg text-white bg-yellow-700 rounded-br-lg rounded-bl-lg px-6 py-3 text-lg font-semibold" data-aos="fade-right" data-aos-duration="2000">
+          <div className= " shadow-lg text-white bg-yellow-700 rounded-br-lg rounded-bl-lg px-6 py-3 text-lg font-semibold" data-aos="fade-right" data-aos-duration="2000">
               Dengan tanpa mengurangi rasa hormat, mohon maaf kami tidak menerima sumbangan / bingkisan dalam bentuk apapun.
           </div>
         </div>
