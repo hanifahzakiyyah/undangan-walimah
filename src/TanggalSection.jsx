@@ -45,14 +45,12 @@ const TanggalSection = () => {
             </div>
             <div>
               <p className="text-lg mt-10" data-aos="fade-up-left" data-aos-duration="2000">
-                {/* Yang bertempat di: <br /> Waroeng Omah Sawah <br />
-                Miri, Timbulharjo, Kec. Sewon, Kabupaten Bantul,
-                Daerah Istimewa Yogyakarta 55185 */}
-                ---
+                Yang bertempat di: <br /> Kampoeng Mataraman <br />
+                Jl. Ringroad Selatan No.93, Glugo, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188
               </p>
               <p data-aos="fade-up-left" data-aos-duration="2000" className="mt-4">
                 <a 
-                  // href="https://maps.app.goo.gl/PgeDd7GqPQa9ccXC8" 
+                  href="https://maps.app.goo.gl/QCKyGexxCxKTSFSFA" 
                   target="_blank" 
                   className="inline-flex items-center gap-2 px-6 py-3 text-lg font-semibold text-white bg-yellow-700 rounded-lg shadow-md hover:bg-orange-500 transition">
                   <MapPinIcon className="w-6 h-6" /> Klik Map
