@@ -60,7 +60,7 @@ const TanggalSection = () => {
             </div>
           </div>
 
-          <div className= "shadow-lg text-white bg-yellow-700 rounded-br-lg rounded-bl-lg px-6 py-3 text-lg font-semibold" data-aos="fade-right" data-aos-duration="2000">
+          <div className= "capitalize shadow-lg text-white bg-yellow-700 rounded-br-lg rounded-bl-lg px-6 py-3 text-lg font-semibold" data-aos="fade-right" data-aos-duration="2000">
               DENGAN TANPA MENGURANGI RASA HORMAT, MOHON MAAF KAMI TIDAK MENERIMA SUMBANGAN / BINGKISAN DALAM BENTUK APAPUN 
           </div>
         </div>
