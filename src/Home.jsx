@@ -1,7 +1,7 @@
 import Countdown from "react-countdown";
 
 const Home = () => {
-  const weddingDate = new Date("2025-08-24T08:00:00").getTime();
+  const weddingDate = new Date("2025-08-23T10:00:00").getTime();
 
   // Custom Renderer untuk Countdown
   const renderer = ({ days, hours, minutes, seconds }) => {
@@ -52,7 +52,7 @@ const Home = () => {
           Chasana Kunarti Ummu Hanifah
         </h3>
         <h4 data-aos="fade-up" data-aos-duration="2000" className="text-xl mt-10">
-          Ahad, 24 Agustus 2025
+          Sabtu, 23 Agustus 2025
         </h4>
 
         {/* Countdown Timer */}
