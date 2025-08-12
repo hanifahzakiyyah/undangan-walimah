@@ -33,7 +33,7 @@ const TanggalSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">Ahad, 24 Agustus 2025</p>
+                <p className="mt-2 text-lg">Sabtu, 23 Agustus 2025</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
