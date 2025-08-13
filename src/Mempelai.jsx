@@ -25,21 +25,6 @@ const Mempelai = () => {
 
         <div className="flex flex-col items-center mt-10">
 
-          <div className="flex flex-row items-center md:justify-center w-full max-w-3xl ">
-            <div className="md:w-1/3 flex justify-center">
-                <div className=" text-right" data-aos="flip-up" data-aos-duration="2000">
-                    <h3 className="text-2xl font-sacramento text-orange-800">Chasana Kunarti Ummu Hanifah</h3>
-                </div>
-            </div>
-            <img
-                src="6.png"
-                alt="aisyah"
-                className="w-48 h-48 rounded-full object-cover"
-                data-aos="flip-left"
-                data-aos-duration="2000"
-            />
-          </div>
-
           <div className="flex flex-row items-center md:justify-center w-full max-w-3xl">
             <img
                 src="5.png"
@@ -53,6 +38,20 @@ const Mempelai = () => {
                     <h3 className="text-2xl font-sacramento text-orange-800">Sugiyono Abu Ramadhan</h3>
                 </div>
             </div>
+          </div>
+          <div className="flex flex-row items-center md:justify-center w-full max-w-3xl ">
+            <div className="md:w-1/3 flex justify-center">
+                <div className=" text-right" data-aos="flip-up" data-aos-duration="2000">
+                    <h3 className="text-2xl font-sacramento text-orange-800">Chasana Kunarti Ummu Hanifah</h3>
+                </div>
+            </div>
+            <img
+                src="6.png"
+                alt="aisyah"
+                className="w-48 h-48 rounded-full object-cover"
+                data-aos="flip-left"
+                data-aos-duration="2000"
+            />
           </div>
             
         </div>
