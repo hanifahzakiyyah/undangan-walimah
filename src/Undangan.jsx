@@ -17,13 +17,21 @@ export default function Undangan() {
     const defaultSesi = "1";
     const toTitleCase = (str) => {
         if (!str) return "";
-      
-        const exceptions = ["TPQ", "SMA", "SMP", "SD", "MI", "MTS", "MA", "PAUD", "TK", "dan"];
+
+        const exceptions = ["TPQ", "SMA", "SMP", "SD", "MI", "MTS", "MA", "PAUD", "TK"];
         return str
-          .split(" ")
-          .map(word => exceptions.includes(word.toUpperCase()) ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-          .join(" ");
+            .split(" ")
+            .map(word => {
+                if (word.toLowerCase() === 'dan') {
+                    return word.toLowerCase(); // 'dan' tetap kecil
+                }
+                return exceptions.includes(word.toUpperCase()) 
+                    ? word.toUpperCase() 
+                    : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            })
+            .join(" ");
     };
+
 
     const formattedNama = (nama || defaultNama).toLowerCase();
     const formattedPanggilan = (panggilan || defaultPanggilan).toLowerCase();

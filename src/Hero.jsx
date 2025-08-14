@@ -7,14 +7,26 @@ const Hero = ({ enableScroll, heroRef }) => {
   const [panggilan, setPanggilan] = useState("")
 
   const toTitleCase = (str) => {
-    if (!str) return "";
-  
-    const exceptions = ["TPQ", "SMA", "SMP", "SD", "MI", "MTS", "MA", "PAUD", "TK"];
-    return str
-      .split(" ")
-      .map(word => exceptions.includes(word.toUpperCase()) ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-      .join(" ");
+      if (!str) return "";
+
+      const exceptions = ["TPQ", "SMA", "SMP", "SD", "MI", "MTS", "MA", "PAUD", "TK"];
+      return str
+          .trim()
+          .split(/\s+/) // pecah berdasarkan 1+ spasi, aman untuk spasi ganda
+          .map(word => {
+              const lower = word.toLowerCase();
+
+              if (lower === "dan") return lower;
+
+              return exceptions.includes(word.toUpperCase()) 
+                  ? word.toUpperCase() 
+                  : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+          })
+          .join(" ");
   };
+
+
+
   
 
   useEffect(() => {
@@ -59,12 +71,12 @@ const Hero = ({ enableScroll, heroRef }) => {
           <img src="/pngwing.com.png" alt="" className="w-80 mx-auto" data-aos="zoom-in" />
         </div>
         <div className="bg-orange-100/50 rounded-3xl py-5 backdrop-blur-[2px] border border-orange-800">
-          <h4 className="text-md text-orange-900 capitalize " data-aos="fade-up">
-            Kepada Yth {panggilan ? toTitleCase(panggilan) : "Bapak/Ibu/Saudara/i"} 
+          <h4 className="text-md text-orange-900 " data-aos="fade-up">
+            Kepada Yth {panggilan ? toTitleCase(panggilan) : ""} 
           </h4>
           
           {/* Nama tamu dari URL */}
-          <h4 className="text-2xl diundang capitalize" data-aos="fade-up">
+          <h4 className="text-2xl diundang" data-aos="fade-up">
             {namaTamu ? toTitleCase(namaTamu) : "Tamu Undangan"}
           </h4>
 
