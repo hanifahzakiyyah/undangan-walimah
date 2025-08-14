@@ -13,7 +13,7 @@ export default function Undangan() {
     const [copiedText, setCopiedText] = useState(false);
 
     const defaultNama = "Tamu Undangan";
-    const defaultPanggilan = "Bapak/Ibu Saudara/i";
+    const defaultPanggilan = "";
     const defaultSesi = "1";
     const toTitleCase = (str) => {
         if (!str) return "";
