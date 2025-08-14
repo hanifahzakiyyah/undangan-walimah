@@ -18,7 +18,7 @@ export default function Undangan() {
     const toTitleCase = (str) => {
         if (!str) return "";
       
-        const exceptions = ["TPQ", "SMA", "SMP", "SD", "MI", "MTS", "MA", "PAUD", "TK"];
+        const exceptions = ["TPQ", "SMA", "SMP", "SD", "MI", "MTS", "MA", "PAUD", "TK", "dan"];
         return str
           .split(" ")
           .map(word => exceptions.includes(word.toUpperCase()) ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
