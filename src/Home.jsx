@@ -1,7 +1,7 @@
 import Countdown from "react-countdown";
 
 const Home = () => {
-  const weddingDate = new Date("2026-02-13T08:30:00").getTime();
+  const weddingDate = new Date("2026-02-16T08:30:00").getTime();
 
   // Custom Renderer untuk Countdown
   const renderer = ({ days, hours, minutes, seconds }) => {
@@ -49,7 +49,7 @@ const Home = () => {
         <h3 data-aos="fade-up" data-aos-duration="2000" className="text-2xl mt-4">
           Hasanuddin <br />
           & <br />
-          Purwi
+          Purwi Riswanti
         </h3>
         <h4 data-aos="fade-up" data-aos-duration="2000" className="text-xl mt-10">
           Senin, 16 Februari 2026

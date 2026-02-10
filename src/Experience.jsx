@@ -15,7 +15,7 @@ import Undangan from "./Undangan";
 export default function Experience() {
     const [isScrollEnabled, setIsScrollEnabled] = useState(false);
     const heroRef = useRef(null);
-    const audioRef = useRef(new Audio("/o.ogg"));
+    const audioRef = useRef(new Audio("/o.mp3"));
     audioRef.current.crossOrigin = "anonymous";
     const [isPlaying, setIsPlaying] = useState(false);
     const [isAdmin, setIsAdmin] = useState(false)

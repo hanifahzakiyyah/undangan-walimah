@@ -33,12 +33,12 @@ const TanggalSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">Senin, 13 Februari 2026</p>
+                <p className="mt-2 text-lg">Senin, 16 Februari 2026</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
                 <p className="mt-2 text-lg">
-                  08:30 - selesai WIB
+                  09:30 - selesai WIB
                 </p>
               </div>
               

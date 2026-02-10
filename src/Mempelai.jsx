@@ -35,14 +35,16 @@ const Mempelai = () => {
             />
             <div className="md:w-1/3 flex justify-center">
                 <div className="text-left" data-aos="flip-right" data-aos-duration="2000">
-                    <h3 className="text-2xl font-sacramento text-orange-800">Hasanuddin</h3>
+                    <h3 className="text-2xl font-sacramento text-orange-800">Hasanuddin Muafif</h3>
+                    
                 </div>
             </div>
           </div>
           <div className="flex flex-row items-center md:justify-center w-full max-w-3xl ">
             <div className="md:w-1/3 flex justify-center">
                 <div className=" text-right" data-aos="flip-up" data-aos-duration="2000">
-                    <h3 className="text-2xl font-sacramento text-orange-800">Purwi</h3>
+                    <h3 className="text-2xl font-sacramento text-orange-800">Purwi Riswanti</h3>
+                    Ibu Kemirah dan Bapak Sogiran
                 </div>
             </div>
             <img
@@ -63,7 +65,7 @@ const Mempelai = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">Senin, 13 Februari 2026</p>
+                <p className="mt-2 text-lg">Senin, 16 Februari 2026</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
