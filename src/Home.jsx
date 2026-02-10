@@ -28,7 +28,7 @@ const Home = () => {
   };
 
   return (
-    <section id="home" className="home pt-32 text-center pb-32 px-5">
+    <section id="home" className="home pt-4 text-center pb-4 px-5">
       <div className="container mx-auto">
         <h2
           data-aos="flip-right"
