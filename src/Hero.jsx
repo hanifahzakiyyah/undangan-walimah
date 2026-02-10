@@ -88,7 +88,7 @@ const Hero = ({ enableScroll, heroRef }) => {
         <button
           onClick={enableScroll}
           className="mt-4 px-6 py-3 bg-yellow-700 text-white rounded-lg"
-          data-aos="flip-up"
+          data-aos="fade-up"
         >
           Lihat Undangan
         </button>
