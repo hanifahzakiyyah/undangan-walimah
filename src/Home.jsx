@@ -43,17 +43,14 @@ const Home = () => {
           alt=""
           data-aos="flip-left"
           data-aos-duration="2000"
-          className="w-64 mx-auto mt-16"
+          className="w-64 mx-auto mt-16 h-64 object-cover"
         />
 
         <h3 data-aos="fade-up" data-aos-duration="2000" className="text-2xl mt-4">
-          Hasanuddin <br />
-          & <br />
-          Purwi Riswanti
+          Hasanuddin & Purwi Riswanti <br />
+          <p className="text-xl">Senin, 16 Februari 2026 </p> 
         </h3>
-        <h4 data-aos="fade-up" data-aos-duration="2000" className="text-xl mt-10">
-          Senin, 16 Februari 2026
-        </h4>
+        
 
         {/* Countdown Timer */}
         <div data-aos="fade-down" data-aos-duration="2000">

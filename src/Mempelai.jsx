@@ -67,28 +67,11 @@ const Mempelai = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">Senin, 16 Februari 2026</p>
+                <p className="mt-2 text-lg text-center">Senin, 16 Februari 2026</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
                 <p className="mt-2 text-lg text-center">08:30 WIB</p>
-              </div>
-              
-            </div>
-          </div>
-
-<div 
-            className=" shadow-lg rounded-lg p-6 text-orange-800 mb-20" 
-            data-aos="fade-up-right" data-aos-duration="2000">
-            <div className="text-xl font-semibold border-b pb-2 mb-4 text-center">Resepsi / Walimah</div>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">Senin, 16 Februari 2026</p>
-              </div>
-              <div>
-                <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg text-center">09:30 WIB</p>
               </div>
               
             </div>
