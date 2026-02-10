@@ -35,9 +35,9 @@ export default function Undangan() {
 
     const formattedNama = (nama || defaultNama).toLowerCase();
     const formattedPanggilan = (panggilan || defaultPanggilan).toLowerCase();
-    const url = `https://undangan-walimah.vercel.app//?kpd=${encodeURIComponent(formattedNama)}&p=${encodeURIComponent(formattedPanggilan)}&sesi=${sesi || defaultSesi}`;
+    const url = `https://walimahhasanpurwi.vercel.app//?kpd=${encodeURIComponent(formattedNama)}&p=${encodeURIComponent(formattedPanggilan)}&sesi=${sesi || defaultSesi}`;
 
-    const invitationText = `Kepada Yth. ${toTitleCase(panggilan) || defaultPanggilan} :\n${toTitleCase(nama) || defaultNama}\n\n_____________________\n\nAssalamualaikum Warahmatullahi Wabarakatuh\n\nTanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri acara pernikahan kami.\n\nBerikut link undangan kami, untuk info lengkap dari acara, bisa kunjungi:\n\n🔗 ${url}\n\nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\nWassalamualaikum Warahmatullahi Wabarakatuh\n\nHormat kami,\nSugiyono Abu Ramadhan & Chas Kunarti Ummu Hanifah`;
+    const invitationText = `Kepada Yth. ${toTitleCase(panggilan) || defaultPanggilan} :\n${toTitleCase(nama) || defaultNama}\n\n_____________________\n\nAssalamualaikum Warahmatullahi Wabarakatuh\n\nDengan memohon Rahmat Ridlo Allah Subhanahu wa taala, kami bermaksud mengundang BPK ibu SDR/i utk menghadiri acara walimatul ursy putra putri kami\n\nBerikut link undangan kami, untuk info lengkap dari acara, bisa kunjungi:\n\n🔗 ${url}\n\nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\nWassalamualaikum Warahmatullahi Wabarakatuh\n\nHormat kami,\nMempelai berdua,\nChas Kunarti dan keluarga`;
 
     const copyToClipboard = (text, setCopiedState) => {
         navigator.clipboard.writeText(text);

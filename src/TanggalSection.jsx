@@ -24,7 +24,7 @@ const TanggalSection = () => {
           </h2> */}
           <p className="text-lg mb-5 mt-10" data-aos="fade-up-right" data-aos-duration="2000">
             Assalamu'alaikum Warahmatullah Wabarakatuh <br />
-            Dengan mengharap Rahmat dan Ridho Allah, Kami mengundang Bapak/Ibu, Saudara/i untuk berkenan hadir pada resepsi pernikahan anak kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
+            Dengan memohon Rahmat Ridlo Allah Subhanahu wa taala, kami bermaksud mengundang BPK ibu SDR/i utk menghadiri acara walimatul ursy putra putri kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
           </p>
 
           <div 
