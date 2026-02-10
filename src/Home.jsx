@@ -49,10 +49,10 @@ const Home = () => {
         <h3 data-aos="fade-up" data-aos-duration="2000" className="text-2xl mt-4">
           Hasanuddin <br />
           & <br />
-          Chasana Kunarti Ummu Hanifah
+          Purwi
         </h3>
         <h4 data-aos="fade-up" data-aos-duration="2000" className="text-xl mt-10">
-          Sabtu, 23 Agustus 2025
+          Senin, 16 Februari 2026
         </h4>
 
         {/* Countdown Timer */}
