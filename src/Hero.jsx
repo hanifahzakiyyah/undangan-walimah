@@ -71,7 +71,7 @@ const Hero = ({ enableScroll, heroRef }) => {
 
       <main>
         <div className="flex justify-center">
-          <img src="/pngwing.com.webp" alt="" className="w-60 h-60 max-w-[70vw] mx-auto max-h-[70vw] object-cover" data-aos="zoom-in" />
+          <img src="/pngwing.com.webp" alt="" className="w-60 h-60 max-w-[50vw] mx-auto max-h-[50vw] object-cover" data-aos="zoom-in" />
         </div>
         <div className="bg-orange-100/50 rounded-3xl py-5 backdrop-blur-[2px] border border-orange-800" data-aos="fade-down">
           <h4 className="text-md text-orange-900 " data-aos="fade-down">
