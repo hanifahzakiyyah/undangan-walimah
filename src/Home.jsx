@@ -28,7 +28,7 @@ const Home = () => {
   };
 
   return (
-    <section id="home" className="home pt-4 text-center pb-4 px-5">
+    <section id="home" className="home pt-20 text-center px-5">
       <div className="container mx-auto">
         <h2
           data-aos="flip-right"
@@ -53,7 +53,7 @@ const Home = () => {
         
 
         {/* Countdown Timer */}
-        <div data-aos="fade-down" data-aos-duration="2000">
+        <div data-aos="fade-down" data-aos-duration="2000" className="pb-20">
           <Countdown date={weddingDate} renderer={renderer} />
         </div>
       </div>
