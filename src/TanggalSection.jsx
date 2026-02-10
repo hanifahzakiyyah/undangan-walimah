@@ -38,7 +38,7 @@ const TanggalSection = () => {
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
                 <p className="mt-2 text-lg">
-                  09:30 - selesai WIB
+                  09:00 - selesai WIB
                 </p>
               </div>
               
