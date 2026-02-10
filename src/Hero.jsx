@@ -70,8 +70,9 @@ const Hero = ({ enableScroll, heroRef }) => {
       ></div>
 
       <main>
+        <div className="fixed inset-0 bg-transparent z-50" onClick={handleTap} onTouchStart={handleTap}></div>
         <div className="flex justify-center">
-          <img src="/pngwing.com.webp" alt="" className="w-60 h-60 max-w-[50vw] mx-auto max-h-[50vw] object-cover" data-aos="zoom-in" />
+          <img src="/pngwing.com.webp" alt="" className="w-60 h-60 max-w-[60vw] mx-auto max-h-[60vw] object-cover -mt-32" data-aos="zoom-in" />
         </div>
         <div className="bg-orange-100/50 rounded-3xl py-5 backdrop-blur-[2px] border border-orange-800" data-aos="fade-down">
           <h4 className="text-md text-orange-900 " data-aos="fade-down">
@@ -89,14 +90,14 @@ const Hero = ({ enableScroll, heroRef }) => {
         </div>
 
         <div
-          className="mt-6 flex flex-col items-center text-orange-900 opacity-80"
-          data-aos="flip-up" onClick={handleTap} onTouchStart={handleTap}
+          className="mt-6 flex flex-col items-center text-orange-900 animate-bounce"
+          data-aos="flip-up"
         >
-          <p className="text-sm tracking-wide">
+          <p className="text-md tracking-wide" >
             tap disini untuk membuka undangan
           </p>
 
-          <div className="mt-2 animate-bounce">
+          <div className="mt-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6"
