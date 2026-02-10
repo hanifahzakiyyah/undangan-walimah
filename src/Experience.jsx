@@ -10,6 +10,7 @@ import DoaSection from "./DoaSection";
 import Footer from "./Footer";
 import { PlayIcon, PauseIcon } from "@heroicons/react/24/solid";
 import Undangan from "./Undangan";
+import { toQueryRef } from "firebase/data-connect";
 
 export default function Experience() {
     const [isScrollEnabled, setIsScrollEnabled] = useState(false);
@@ -57,21 +58,40 @@ export default function Experience() {
 
     useEffect(() => {
         AOS.init({ duration: 1000, once: false });
-        disableScroll(); // Kunci scroll saat halaman dimuat
+        disableScroll(); // scroll terkunci di awal
 
         const params = new URLSearchParams(window.location.search);
-        let admin = params.get("admin");
-        if (admin==="admin"){
-            setIsAdmin(true)
+        const admin = params.get("admin");
+        if (admin === "admin") {
+            setIsAdmin(true);
         }
 
+        const unlockOnTap = () => {
+            enableScroll();
+
+            // 🎵 play audio (VALID gesture)
+            const audio = audioRef.current;
+            audio.loop = true;
+            audio.play()
+                .then(() => setIsPlaying(true))
+                .catch(() => {});
+
+            window.removeEventListener("touchstart", unlockOnTap);
+            window.removeEventListener("click", unlockOnTap);
+        };
+
+        window.addEventListener("touchstart", unlockOnTap, { once: true });
+        window.addEventListener("click", unlockOnTap, { once: true });
 
         return () => {
             audioRef.current.pause();
             audioRef.current.currentTime = 0;
+
+            window.removeEventListener("touchstart", unlockOnTap);
+            window.removeEventListener("click", unlockOnTap);
         };
-        
     }, []);
+
 
     return (
         <div className="relative font-delius max-w-[500px]">
