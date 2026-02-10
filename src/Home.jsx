@@ -1,7 +1,7 @@
 import Countdown from "react-countdown";
 
 const Home = () => {
-  const weddingDate = new Date("2025-08-23T10:00:00").getTime();
+  const weddingDate = new Date("2026-02-13T08:30:00").getTime();
 
   // Custom Renderer untuk Countdown
   const renderer = ({ days, hours, minutes, seconds }) => {

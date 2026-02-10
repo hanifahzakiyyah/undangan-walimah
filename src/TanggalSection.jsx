@@ -24,7 +24,7 @@ const TanggalSection = () => {
           </h2> */}
           <p className="text-lg mb-5 mt-10" data-aos="fade-up-right" data-aos-duration="2000">
             Assalamu'alaikum Warahmatullah Wabarakatuh <br />
-            Dengan mengharap Rahmat dan Ridho Allah, Kami mengundang Bapak/Ibu, Saudara/i untuk berkenan hadir pada resepsi pernikahan kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
+            Dengan mengharap Rahmat dan Ridho Allah, Kami mengundang Bapak/Ibu, Saudara/i untuk berkenan hadir pada resepsi pernikahan anak kami, serta memberikan doa restu. InsyaAllah walimatul 'Urs akan diselenggarakan pada:
           </p>
 
           <div 
@@ -33,24 +33,24 @@ const TanggalSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
-                <p className="mt-2 text-lg">Sabtu, 23 Agustus 2025</p>
+                <p className="mt-2 text-lg">Senin, 13 Februari 2026</p>
               </div>
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
                 <p className="mt-2 text-lg">
-                  10:00 - 11:00 WIB
+                  08:30 - selesai WIB
                 </p>
               </div>
               
             </div>
             <div>
               <p className="text-lg mt-10" data-aos="fade-up-left" data-aos-duration="2000">
-                Yang bertempat di: <br /> Kampoeng Mataraman <br />
-                Jl. Ringroad Selatan No.93, Glugo, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188
+                Yang bertempat di: <br /> Waroeng Omah Sawah <br />
+                Miri, Timbulharjo, Sewon, Bantul Regency, Special Region of Yogyakarta 55185
               </p>
               <p data-aos="fade-up-left" data-aos-duration="2000" className="mt-4">
                 <a 
-                  href="https://maps.app.goo.gl/QCKyGexxCxKTSFSFA" 
+                  href="https://maps.app.goo.gl/Mjkj3YPizd3iNTF36"
                   target="_blank" 
                   className="inline-flex items-center gap-2 px-6 py-3 text-lg font-semibold text-white bg-yellow-700 rounded-lg shadow-md hover:bg-orange-500 transition">
                   <MapPinIcon className="w-6 h-6" /> Klik Map
@@ -58,10 +58,6 @@ const TanggalSection = () => {
               </p>
               
             </div>
-          </div>
-
-          <div className= " shadow-lg text-white bg-yellow-700 rounded-br-lg rounded-bl-lg px-6 py-3 text-lg font-semibold" data-aos="fade-right" data-aos-duration="2000">
-              Dengan tanpa mengurangi rasa hormat, mohon maaf kami tidak menerima sumbangan / bingkisan dalam bentuk apapun.
           </div>
         </div>
 
