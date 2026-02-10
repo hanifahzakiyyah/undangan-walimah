@@ -49,7 +49,10 @@ const Hero = ({ enableScroll, heroRef }) => {
     }
   }, []);
   
-  
+  const handleTap = () => {
+    enableScroll();
+  };
+
   
   
 
@@ -87,10 +90,10 @@ const Hero = ({ enableScroll, heroRef }) => {
 
         <div
           className="mt-6 flex flex-col items-center text-orange-900 opacity-80"
-          data-aos="flip-up"
+          data-aos="flip-up" onClick={handleTap} onTouchStart={handleTap}
         >
           <p className="text-sm tracking-wide">
-            tap layar untuk membuka undangan
+            tap disini untuk membuka undangan
           </p>
 
           <div className="mt-2 animate-bounce">

@@ -66,31 +66,12 @@ export default function Experience() {
             setIsAdmin(true);
         }
 
-        const unlockOnTap = () => {
-            enableScroll();
-
-            // 🎵 play audio (VALID gesture)
-            const audio = audioRef.current;
-            audio.loop = true;
-            audio.play()
-                .then(() => setIsPlaying(true))
-                .catch(() => {});
-
-            window.removeEventListener("touchstart", unlockOnTap);
-            window.removeEventListener("click", unlockOnTap);
-        };
-
-        window.addEventListener("touchstart", unlockOnTap, { once: true });
-        window.addEventListener("click", unlockOnTap, { once: true });
-
         return () => {
             audioRef.current.pause();
             audioRef.current.currentTime = 0;
-
-            window.removeEventListener("touchstart", unlockOnTap);
-            window.removeEventListener("click", unlockOnTap);
         };
     }, []);
+
 
 
     return (
