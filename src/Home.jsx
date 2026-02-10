@@ -47,7 +47,7 @@ const Home = () => {
         />
 
         <h3 data-aos="fade-up" data-aos-duration="2000" className="text-2xl mt-4">
-          Sugiyono Abu Ramadhan <br />
+          Hasanuddin <br />
           & <br />
           Chasana Kunarti Ummu Hanifah
         </h3>
