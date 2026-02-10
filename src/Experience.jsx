@@ -20,7 +20,7 @@ export default function Experience() {
     const [isAdmin, setIsAdmin] = useState(false);
 
     // Fungsi enable scroll (dipertahankan, tapi tanpa lock/unlock)
-    const enableScroll = () => {
+    // const enableScroll = () => {
         setIsScrollEnabled(true);
 
         document.getElementById("home")?.scrollIntoView({ behavior: "smooth" });
@@ -30,7 +30,7 @@ export default function Experience() {
         audio.play()
             .then(() => setIsPlaying(true))
             .catch(err => console.log("Autoplay gagal:", err));
-    };
+    // };
 
     // Toggle play / pause audio
     const toggleAudio = () => {
