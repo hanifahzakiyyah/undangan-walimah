@@ -70,7 +70,6 @@ const Hero = ({ enableScroll, heroRef }) => {
       ></div>
 
       <main>
-        <div className="fixed inset-0 bg-transparent z-50" onClick={handleTap} onTouchStart={handleTap}></div>
         <div className="flex justify-center">
           <img src="/pngwing.com.webp" alt="" className="w-60 h-60 max-w-[60vw] mx-auto max-h-[60vw] object-cover -mt-32" data-aos="zoom-in" />
         </div>
@@ -91,7 +90,7 @@ const Hero = ({ enableScroll, heroRef }) => {
 
         <div
           className="mt-6 flex flex-col items-center text-orange-900 animate-bounce"
-          data-aos="flip-up"
+          data-aos="flip-up" onClick={handleTap} onTouchStart={handleTap}
         >
           <p className="text-md tracking-wide" >
             tap disini untuk membuka undangan
