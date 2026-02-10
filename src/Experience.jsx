@@ -6,7 +6,6 @@ import AOS from "aos";
 import { useEffect, useRef, useState } from "react";
 import TanggalSection from "./TanggalSection";
 import AdabSection from "./AdabSection";
-import KonfirmasiKehadiran from "./KonfirmasiKehadiran";
 import DoaSection from "./DoaSection";
 import Footer from "./Footer";
 import { PlayIcon, PauseIcon } from "@heroicons/react/24/solid";
@@ -94,7 +93,6 @@ export default function Experience() {
             </div>
             <TanggalSection />
             <AdabSection />
-            <KonfirmasiKehadiran />
             <DoaSection />
             <Footer />
 
