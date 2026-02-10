@@ -16,7 +16,7 @@ export default function Experience() {
     const heroRef = useRef(null);
     const audioRef = useRef(new Audio("/o.mp3"));
     audioRef.current.crossOrigin = "anonymous";
-    const [isPlaying, setIsPlaying] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(true);
     const [isAdmin, setIsAdmin] = useState(false);
 
     // Fungsi enable scroll (dipertahankan, tapi tanpa lock/unlock)
