@@ -36,7 +36,8 @@ const Mempelai = () => {
             <div className="md:w-1/3 flex justify-center">
                 <div className="text-left" data-aos="flip-right" data-aos-duration="2000">
                     <h3 className="text-2xl font-sacramento text-orange-800">Hasanuddin Muafif</h3>
-                    
+                    <h2 className="text-xl font-sacramento text-orange-800">Putra dari Ibu Chas Kunarti dan Bapak Didit Sofyan Muafif</h2>
+
                 </div>
             </div>
           </div>
@@ -44,7 +45,8 @@ const Mempelai = () => {
             <div className="md:w-1/3 flex justify-center">
                 <div className=" text-right" data-aos="flip-up" data-aos-duration="2000">
                     <h3 className="text-2xl font-sacramento text-orange-800">Purwi Riswanti</h3>
-                    Ibu Kemirah dan Bapak Sogiran
+                    <h2 className="text-xl font-sacramento text-orange-800">Putri dari Ibu Kemirah dan Bapak Sogiran</h2>
+                    
                 </div>
             </div>
             <img
@@ -70,6 +72,23 @@ const Mempelai = () => {
               <div>
                 <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
                 <p className="mt-2 text-lg text-center">08:30 WIB</p>
+              </div>
+              
+            </div>
+          </div>
+
+<div 
+            className=" shadow-lg rounded-lg p-6 text-orange-800 mb-20" 
+            data-aos="fade-up-right" data-aos-duration="2000">
+            <div className="text-xl font-semibold border-b pb-2 mb-4 text-center">Resepsi / Walimah</div>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <CalendarDaysIcon className="w-8 h-8 text-orange-800 mx-auto" />
+                <p className="mt-2 text-lg">Senin, 16 Februari 2026</p>
+              </div>
+              <div>
+                <ClockIcon className="w-8 h-8 text-orange-800 mx-auto" />
+                <p className="mt-2 text-lg text-center">09:30 WIB</p>
               </div>
               
             </div>
