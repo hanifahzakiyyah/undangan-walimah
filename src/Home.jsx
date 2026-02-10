@@ -39,7 +39,7 @@ const Home = () => {
         </h2>
 
         <img
-          src="pngwing.com.png"
+          src="pngwing.com.webp"
           alt=""
           data-aos="flip-left"
           data-aos-duration="2000"

@@ -27,7 +27,7 @@ const Mempelai = () => {
 
           <div className="flex flex-row items-center md:justify-center w-full max-w-3xl">
             <img
-                src="5.png"
+                src="5.webp"
                 alt="anang"
                 className="w-48 h-48 rounded-full object-cover"
                 data-aos="flip-down"
@@ -50,7 +50,7 @@ const Mempelai = () => {
                 </div>
             </div>
             <img
-                src="6.png"
+                src="6.webp"
                 alt="aisyah"
                 className="w-48 h-48 rounded-full object-cover"
                 data-aos="flip-left"
