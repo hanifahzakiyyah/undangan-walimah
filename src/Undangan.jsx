@@ -37,7 +37,7 @@ export default function Undangan() {
     const formattedPanggilan = (panggilan || defaultPanggilan).toLowerCase();
     const url = `https://walimahhasanpurwi.vercel.app//?kpd=${encodeURIComponent(formattedNama)}&p=${encodeURIComponent(formattedPanggilan)}&sesi=${sesi || defaultSesi}`;
 
-    const invitationText = `Kepada Yth. ${toTitleCase(panggilan) || defaultPanggilan} :\n${toTitleCase(nama) || defaultNama}\n\n_____________________\n\nAssalamualaikum Warahmatullahi Wabarakatuh\n\nDengan memohon Rahmat Ridlo Allah Subhanahu wa taala, kami bermaksud mengundang Bapak Ibu Saudara/i utk menghadiri acara walimatul ursy putra putri kami\n\nBerikut link undangan kami, untuk info lengkap dari acara, bisa kunjungi:\n\n🔗 ${url}\n\nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\nWassalamualaikum Warahmatullahi Wabarakatuh\n\nHormat kami,\nMempelai berdua,\nChas Kunarti dan keluarga`;
+    const invitationText = `Kepada Yth. ${toTitleCase(panggilan) || defaultPanggilan} :\n${toTitleCase(nama) || defaultNama}\n\n_____________________\n\nAssalamualaikum Warahmatullahi Wabarakatuh\n\nDengan memohon Rahmat Ridlo Allah Subhanahu wa taala, kami bermaksud mengundang Bapak Ibu Saudara/i utk menghadiri acara walimatul ursy putra putri kami\n\nBerikut link undangan kami, untuk info lengkap dari acara, bisa kunjungi:\n\n🔗 ${url}\n\nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\nWassalamualaikum Warahmatullahi Wabarakatuh\n\nHormat kami,\nIbu Chas Kunarti, Bpk Sugiyono dan keluarga`;
 
     const copyToClipboard = (text, setCopiedState) => {
         navigator.clipboard.writeText(text);
